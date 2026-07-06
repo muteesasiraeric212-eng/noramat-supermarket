@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Kinyara Sugar 1kg",
+    "category": "Groceries",
+    "description": "Refined white sugar for baking, drinks, and everyday cooking.",
+    "priceUSD": 1.70,
+    "priceUGX": 6600,
+    "image": "https://images.unsplash.com/photo-1549060278-4f9d9adc924f?auto=format&fit=crop&w=700&q=80",
+    "stock": 32
+  },
+  {
+    "id": 2,
+    "name": "Fresh Leek",
+    "category": "Vegetables",
+    "description": "Fresh Ugandan leeks for soups, stews, and seasoning.",
+    "priceUSD": 0.70,
+    "priceUGX": 2700,
+    "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=80",
+    "stock": 48
+  },
+  {
+    "id": 3,
+    "name": "Rwenzori Water Gallon 18.7L",
+    "category": "Beverages",
+    "description": "Large mineral water gallon for home and office use.",
+    "priceUSD": 4.95,
+    "priceUGX": 19300,
+    "image": "https://images.unsplash.com/photo-1598511727756-38f75f7d4a11?auto=format&fit=crop&w=700&q=80",
+    "stock": 15
+  },
+  {
+    "id": 4,
+    "name": "American Garden Bread Crumbs 425g",
+    "category": "Cooking",
+    "description": "Crunchy bread crumbs for coating and baking.",
+    "priceUSD": 4.50,
+    "priceUGX": 17600,
+    "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=700&q=80",
+    "stock": 22
+  },
+  {
+    "id": 5,
+    "name": "Axion Dish Washing Paste 400g",
+    "category": "Household",
+    "description": "Powerful dishwashing paste for cleaner plates and utensils.",
+    "priceUSD": 4.10,
+    "priceUGX": 16000,
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=700&q=80",
+    "stock": 40
+  },
+  {
+    "id": 6,
+    "name": "Eggs Pack (6)",
+    "category": "Groceries",
+    "description": "Fresh eggs pack of six, perfect for breakfast and baking.",
+    "priceUSD": 1.35,
+    "priceUGX": 5300,
+    "image": "https://images.unsplash.com/photo-1574226516831-e1dff420e9a0?auto=format&fit=crop&w=700&q=80",
+    "stock": 60
+  },
+  {
+    "id": 7,
+    "name": "Stasoft Fabric Conditioner 750ml",
+    "category": "Household",
+    "description": "Softening fabric conditioner with a fresh scent.",
+    "priceUSD": 3.80,
+    "priceUGX": 14800,
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80",
+    "stock": 27
+  },
+  {
+    "id": 8,
+    "name": "Mukwano Vegetable Oil 500g",
+    "category": "Groceries",
+    "description": "Pure vegetable oil for frying and everyday cooking.",
+    "priceUSD": 0.64,
+    "priceUGX": 2500,
+    "image": "https://images.unsplash.com/photo-1533488765986-dfa2a9938a69?auto=format&fit=crop&w=700&q=80",
+    "stock": 80
+  },
+  {
+    "id": 9,
+    "name": "Milo Drinking Chocolate 200g",
+    "category": "Groceries",
+    "description": "Popular malt drink mix for hot or cold beverages.",
+    "priceUSD": 2.10,
+    "priceUGX": 8200,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
+    "stock": 35
+  },
+  {
+    "id": 10,
+    "name": "Fresh Beef 1kg",
+    "category": "Meat",
+    "description": "Locally sourced beef cuts for grilling and stews.",
+    "priceUSD": 5.40,
+    "priceUGX": 21000,
+    "image": "https://images.unsplash.com/photo-1511689983464-0f45b1f6434a?auto=format&fit=crop&w=700&q=80",
+    "stock": 18
+  },
+  {
+    "id": 11,
+    "name": "Watermelon",
+    "category": "Fruit",
+    "description": "Sweet seedless watermelon for refreshing snacks.",
+    "priceUSD": 3.91,
+    "priceUGX": 15200,
+    "image": "https://images.unsplash.com/photo-1524594154901-dca00f01265a?auto=format&fit=crop&w=700&q=80",
+    "stock": 20
+  },
+  {
+    "id": 12,
+    "name": "Juniors Glycerine Soap 100g",
+    "category": "Personal Care",
+    "description": "Gentle soap for face and body care.",
+    "priceUSD": 0.40,
+    "priceUGX": 1600,
+    "image": "https://images.unsplash.com/photo-1581579182948-4e7ad5e5e8b7?auto=format&fit=crop&w=700&q=80",
+    "stock": 120
+  },
+  {
+    "id": 13,
+    "name": "Maize Flour 2kg",
+    "category": "Groceries",
+    "description": "High-quality maize flour for baking and ugali.",
+    "priceUSD": 5.25,
+    "priceUGX": 20000,
+    "image": "https://images.unsplash.com/photo-1536305030014-8a3ec363e1b4?auto=format&fit=crop&w=700&q=80",
+    "stock": 50
+  },
+  {
+    "id": 14,
+    "name": "Simsim Oil 1L",
+    "category": "Groceries",
+    "description": "Cold-pressed sesame oil for cooking and dressing.",
+    "priceUSD": 12.50,
+    "priceUGX": 45000,
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=700&q=80",
+    "stock": 26
+  },
+  {
+    "id": 15,
+    "name": "Ugandan Sugar 2kg",
+    "category": "Groceries",
+    "description": "Household sugar for sweetening drinks and meals.",
+    "priceUSD": 8.99,
+    "priceUGX": 35000,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80",
+    "stock": 45
+  },
+  {
+    "id": 16,
+    "name": "Matooke Plantains",
+    "category": "Groceries",
+    "description": "Fresh matooke plantains, a staple ingredient in Uganda.",
+    "priceUSD": 4.50,
+    "priceUGX": 18000,
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=700&q=80",
+    "stock": 38
+  },
+  {
+    "id": 17,
+    "name": "Groundnuts",
+    "category": "Groceries",
+    "description": "Roasted groundnuts for snacks or cooking.",
+    "priceUSD": 3.99,
+    "priceUGX": 16000,
+    "image": "https://images.unsplash.com/photo-1511285560929-2e847c54cabd?auto=format&fit=crop&w=700&q=80",
+    "stock": 70
+  },
+  {
+    "id": 18,
+    "name": "Coffee Maker",
+    "category": "Home & Garden",
+    "description": "Compact coffee maker for fresh brewed coffee at home.",
+    "priceUSD": 39.99,
+    "priceUGX": 157000,
+    "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=700&q=80",
+    "stock": 10
+  },
+  {
+    "id": 19,
+    "name": "Running Shoes",
+    "category": "Sports & Fitness",
+    "description": "Comfortable running shoes for everyday exercise.",
+    "priceUSD": 59.99,
+    "priceUGX": 235000,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=80",
+    "stock": 14
+  },
+  {
+    "id": 20,
+    "name": "Smart Home Speaker",
+    "category": "Home & Garden",
+    "description": "Voice-assisted speaker for music and smart home control.",
+    "priceUSD": 79.99,
+    "priceUGX": 312000,
+    "image": "https://images.unsplash.com/photo-1517430816048-4c0e0a2d0cca?auto=format&fit=crop&w=700&q=80",
+    "stock": 8
+  }
+]

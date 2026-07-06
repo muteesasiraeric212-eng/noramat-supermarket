@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Noramart Supermarket</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="content-page">
+    <header>
+        <nav>
+            <div class="nav-brand">Noramart</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart.html" class="nav-cart">Cart <span id="cart-count" class="cart-badge">0</span></a>
+                <a href="signin.html">Sign in</a>
+            </div>
+            <a class="nav-button" href="products.html">Order now</a>
+        </nav>
+    </header>
+    <main>
+        <section class="auth-section cart-section">
+            <div class="auth-grid">
+                <div class="auth-card">
+                    <span class="eyebrow">Shopping cart</span>
+                    <h2>Your selected items</h2>
+                    <div id="cart-items" class="cart-items"></div>
+                    <div id="cart-empty" class="cart-empty">Your cart is empty.</div>
+                </div>
+                <div class="payment-card">
+                    <span class="eyebrow">Checkout</span>
+                    <h2>Complete your order</h2>
+                    <div class="cart-summary" id="cart-summary"></div>
+                    <form class="auth-form" id="checkout-form">
+                        <div class="form-group">
+                            <label for="checkout-method">Payment method</label>
+                            <select id="checkout-method">
+                                <option>MTN Mobile Money</option>
+                                <option>Airtel Money</option>
+                                <option>Visa / Mastercard</option>
+                                <option>Bank transfer</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout-amount">Amount (UGX)</label>
+                            <input id="checkout-amount" type="number" placeholder="20000" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout-phone">Mobile money number</label>
+                            <input id="checkout-phone" type="tel" placeholder="+256 700 000 000">
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout-email">Email address</label>
+                            <input id="checkout-email" type="email" placeholder="you@example.com">
+                        </div>
+                        <button type="submit">Pay now</button>
+                        <div id="checkout-status" class="status-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

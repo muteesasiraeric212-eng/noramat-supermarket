@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Noramart Supermarket</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="products-page">
+    <header>
+        <nav>
+            <div class="nav-brand">Noramart</div>
+            <div class="nav-links">
+                <button class="nav-search" type="button">Search</button>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart.html" class="nav-cart">Cart <span id="cart-count" class="cart-badge">0</span></a>
+                <a href="signin.html">Sign in</a>
+            </div>
+            <a class="nav-button" href="index.html">Order now</a>
+        </nav>
+    </header>
+    <main>
+        <section class="page-header">
+            <div class="section-header">
+                <span class="eyebrow">Shop groceries</span>
+                <h1>Noramart supermarket catalogue</h1>
+                <p>Browse a wide selection of grocery items, household essentials and local Ugandan products with prices in USD and UGX.</p>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="section-header">
+                <h2>Top categories</h2>
+                <p>Quickly find groceries, household items and more from nearby stores.</p>
+            </div>
+            <div class="category-cards">
+                <article class="category-card">
+                    <div class="category-icon">🥫</div>
+                    <h3>Groceries</h3>
+                    <p>Sugar, flour, oil and everyday essentials.</p>
+                </article>
+                <article class="category-card">
+                    <div class="category-icon">🏠</div>
+                    <h3>Home & Garden</h3>
+                    <p>Kitchen items, cleaning supplies and home comfort.</p>
+                </article>
+                <article class="category-card">
+                    <div class="category-icon">💊</div>
+                    <h3>Pharmacy</h3>
+                    <p>Health, hygiene and personal care delivered quickly.</p>
+                </article>
+                <article class="category-card">
+                    <div class="category-icon">🍽️</div>
+                    <h3>Meals</h3>
+                    <p>Ready-to-eat options from local eateries.</p>
+                </article>
+            </div>
+        </section>
+        <section class="popular-items">
+            <div class="section-header">
+                <h2>Featured products</h2>
+                <p>Touchable favorites from Noramart supermarket with reliable delivery.</p>
+            </div>
+            <div class="products-grid" id="products-grid">
+                <p>Loading products...</p>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

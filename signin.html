@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Noramart Supermarket</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="content-page">
+    <header>
+        <nav>
+            <div class="nav-brand">Noramart</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="signin.html">Sign in</a>
+            </div>
+            <a class="nav-button" href="products.html">Order now</a>
+        </nav>
+    </header>
+    <main>
+        <section class="auth-section">
+            <div class="auth-grid">
+                <div class="auth-card">
+                    <span class="eyebrow">Customer access</span>
+                    <h2>Sign in to your Noramart account</h2>
+                    <p>Use your email or mobile number to sign in instantly, then checkout with mobile money or card payment.</p>
+                    <form class="auth-form" id="signin-form">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input id="email" type="email" placeholder="you@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Mobile number</label>
+                            <input id="phone" type="tel" placeholder="+256 700 000 000">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input id="password" type="password" placeholder="Enter your password">
+                        </div>
+                        <div class="form-group">
+                            <label for="auth-method">Sign in method</label>
+                            <select id="auth-method">
+                                <option>Email and password</option>
+                                <option>OTP via mobile money</option>
+                                <option>Social login (coming soon)</option>
+                            </select>
+                        </div>
+                        <button type="submit">Continue</button>
+                        <div id="signin-status" class="status-message"></div>
+                    </form>
+                </div>
+                <div class="payment-card">
+                    <span class="eyebrow">Payment options</span>
+                    <h2>Pay with mobile money or card</h2>
+                    <p>Select a convenient payment method at checkout. Noramart supports Uganda Mobile Money as well as Visa, Mastercard and UPI-style wallets.</p>
+                    <form class="auth-form" id="payment-form">
+                        <div class="form-group">
+                            <label for="pay-method">Payment method</label>
+                            <select id="pay-method">
+                                <option>MTN Mobile Money</option>
+                                <option>Airtel Money</option>
+                                <option>Visa / Mastercard</option>
+                                <option>Bank transfer</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="pay-amount">Amount (UGX)</label>
+                            <input id="pay-amount" type="number" placeholder="20000">
+                        </div>
+                        <div class="form-group">
+                            <label for="pay-number">Mobile money number</label>
+                            <input id="pay-number" type="tel" placeholder="+256 700 000 000">
+                        </div>
+                        <button type="submit">Pay now</button>
+                        <div id="payment-status" class="status-message"></div>
+                    </form>
+                    <div class="payment-methods">
+                        <div class="payment-item">
+                            <strong>MTN Mobile Money</strong>
+                            <span>Fast and secure payments with your MTN wallet.</span>
+                        </div>
+                        <div class="payment-item">
+                            <strong>Airtel Money</strong>
+                            <span>Pay directly with your Airtel Uganda mobile money account.</span>
+                        </div>
+                        <div class="payment-item">
+                            <strong>Visa / Mastercard</strong>
+                            <span>Use any major debit or credit card for online checkout.</span>
+                        </div>
+                        <div class="payment-item">
+                            <strong>Bank transfer</strong>
+                            <span>Choose a direct bank transfer option if preferred.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

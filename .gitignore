@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Local JDK/runtime folder
+oracleJdk-26/
+
+# GitHub Actions and local temp files
+status*.txt
+filtered_status.txt
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
